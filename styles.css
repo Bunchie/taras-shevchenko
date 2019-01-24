@@ -1,0 +1,83 @@
+body {
+    margin: 0 auto;
+}
+
+#home {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 804px;
+    position: relative;
+}
+
+#home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+    background-color: #19191b;
+}
+
+.home-content-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.home-content-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 500;
+}
+
+.home-content-tablecell .row {
+    position: relative;
+    padding-top: 16.2rem;
+    padding-bottom: 15rem;
+}
+
+.home-content-tablecell h3 {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    margin: 0 0 .9rem 0;
+}
+
+.home-content-tablecell h1 {
+    font-family: "montserrat-bold", serif;
+    font-size: 9rem;
+    line-height: 1.133;
+    color: #FFFFFF;
+}
+
+.home-content-tablecell .more {
+    margin: 4.8rem 0 0 0;
+}
+
+.home-content-tablecell .more .button {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    position: relative;
+    background-size: cover;
+    transition: 1s opacity;
+    background: url('/shevchenko_taras_poster.jpg') no-repeat;
+}
